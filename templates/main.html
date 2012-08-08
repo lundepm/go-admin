@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>D3G admin</title>
+	<meta name="author" content="Paul Magne Lunde" />
+	<style>
+		nav {
+			float: left;
+			width: 100%;
+			display: block;
+			background-color: yellow;
+		}
+		
+		nav ul li {
+			float: left;
+			display: block;
+			text-decoration: none;
+			width: 150px;
+			border: 1px solid black;
+		}
+		
+		#leftMenu {
+			float: left;
+			display: block;
+			border: 1px solid black;
+			width: 200px;
+			height: 500px;
+		}
+		
+		#leftMenu ul li {
+			border: none;
+		}
+		
+		#content {
+			float: left;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		{{.MenuHTML}}
+	</nav>
+	<div>
+		<nav id="leftMenu">
+			{{.TocHTML}}
+		</nav>
+		<div id="content">
+			{{.ContentHTML}}
+		</div>
+	</div>
+</body>
+</html>
+

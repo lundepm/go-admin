@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Routes>
+	<Route Id="/test1">
+	    <Impl_repo>0</Impl_repo>
+	    <Src>coll1/bok1</Src>
+	    <Disabled>false</Disabled>
+	    <Http_code>200</Http_code>
+	    <Redir_to_id></Redir_to_id>
+	    <Partial_redir>false</Partial_redir>
+	    <Names>
+	        <Name Lang="no">
+	            <Name>Den ene</Name>
+	            <Tooltip>tooltip1</Tooltip>
+	        </Name>
+	        <Name Lang="en">
+	            <Name>The One</Name>
+	            <Tooltip>tooltip2</Tooltip>
+	        </Name>
+	        <Name Lang="sv">
+	            <Name>den enda</Name>
+	            <Tooltip>tooltip3</Tooltip>
+	        </Name>
+	    </Names>
+	    <Meta_values>
+	        <MetaValue Key="PUBDATE_COPNO">
+	            <Value>1.1.1988</Value>
+	        </MetaValue>
+	        <MetaValue Key="b">
+	            <Value></Value>
+	        </MetaValue>
+	        <MetaValue Key="keyC">
+	            <Value>Enda en text</Value>
+	        </MetaValue>
+	    </Meta_values>
+	</Route>
+	<Route Id="/test1/34">
+	    <Impl_repo>0</Impl_repo>
+	    <Src>coll1/bok1/34</Src>
+	    <Disabled>false</Disabled>
+	    <Http_code>200</Http_code>
+	    <Redir_to_id></Redir_to_id>
+	    <Partial_redir>false</Partial_redir>
+	    <Names>
+	        <Name Lang="no">
+	            <Name>Den ene df</Name>
+	            <Tooltip>tooltip4</Tooltip>
+	        </Name>
+	        <Name Lang="en">
+	            <Name>The One dfdf</Name>
+	            <Tooltip>tooltip5</Tooltip>
+	        </Name>
+	        <Name Lang="sv">
+	            <Name>den enda ertet</Name>
+	            <Tooltip>tooltip6</Tooltip>
+	        </Name>
+	    </Names>
+	    <Meta_values>
+	        <MetaValue Key="PUBDATE_COPNO">
+	            <Value>1.1.1988</Value>
+	        </MetaValue>
+	        <MetaValue Key="b">
+	            <Value></Value>
+	        </MetaValue>
+	        <MetaValue Key="keyC">
+	            <Value>Enda en text</Value>
+	        </MetaValue>
+	    </Meta_values>
+	</Route>
+	<Route Id="/test1/35">
+	    <Impl_repo>0</Impl_repo>
+	    <Src>coll1/bok1/35</Src>
+	    <Disabled>false</Disabled>
+	    <Http_code>200</Http_code>
+	    <Redir_to_id></Redir_to_id>
+	    <Partial_redir>false</Partial_redir>
+	    <Names>
+	        <Name Lang="no">
+	            <Name>35 Den ene df</Name>
+	            <Tooltip>tooltip4</Tooltip>
+	        </Name>
+	        <Name Lang="en">
+	            <Name>35 The One dfdf</Name>
+	            <Tooltip>tooltip5</Tooltip>
+	        </Name>
+	        <Name Lang="sv">
+	            <Name>35 den enda ertet</Name>
+	            <Tooltip>tooltip6</Tooltip>
+	        </Name>
+	    </Names>
+	    <Meta_values>
+	        <MetaValue Key="PUBDATE_COPNO">
+	            <Value>1.1.1988</Value>
+	        </MetaValue>
+	        <MetaValue Key="b">
+	            <Value>rtrtttuy</Value>
+	        </MetaValue>
+	        <MetaValue Key="keyC">
+	            <Value>Enda en text</Value>
+	        </MetaValue>
+	    </Meta_values>
+	</Route>
+</Routes>

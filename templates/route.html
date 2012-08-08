@@ -1,0 +1,32 @@
+<h1>{{.Title}}</h1>
+<table>
+	<tr>
+		<td>{{.Route.Id}}</td>
+		<td>{{.Route.Impl_repo}}</td>
+	</tr>
+	<tr>
+		<td>{{.Route.Src}}</td>
+		<td>{{.Route.Disabled}}</td>
+	</tr>
+	<tr>
+		<td>{{.Route.Http_code}}</td>
+		<td>{{.Route.Redir_to_id}}</td>
+	</tr>	
+	<tr>
+		<td>{{.Route.Partial_redir}}</td>
+		<td></td>
+	</tr>
+	{{range .Route.Names.Name}}
+		<tr>
+			<td>{{.Lang}}</td>
+			<td>{{.Tooltip}}</td>
+			<td>{{.Name}}</td>
+		</tr>
+	{{end}}
+	{{range .Route.Meta_values.MetaValue}}
+		<tr>
+			<td>{{.Key}}</td>
+			<td>{{.Value}}</td>
+		</tr>
+	{{end}}
+</table>

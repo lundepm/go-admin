@@ -1,0 +1,13 @@
+<ul>
+{{range .Nodes}}
+	{{$id := .Id}}
+	<li class="item{{.Id}}">
+		{{range .Names.Name}}
+
+			<a class="{{.Lang}}" href="/route{{$id}}" title="{{.Tooltip}}">{{.Name}}</a>
+			<br/>
+			
+		{{end}}
+	</li>
+{{end}}
+</ul>

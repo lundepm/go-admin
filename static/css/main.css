@@ -1,0 +1,15 @@
+nav {
+	float: left;
+	width: 100%;
+	display: block;
+	background-color: yellow;
+}
+
+nav ul li {
+	float: left;
+	display: block;
+	text-decoration: none;
+	width: 150px;
+	height: 30px;
+	border: 1px solid black;
+}

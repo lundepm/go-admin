@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+	<item number="1">
+		<text>Home</text>
+		<link>/</link>
+		<tooltip>Home</tooltip>
+	</item>
+	<item number="2">
+		<text>Bla</text>
+		<link></link>
+		<tooltip>gdkgldkglk</tooltip>
+	</item>
+	<item number="3">
+		<text>Blabla</text>
+		<link></link>
+		<tooltip>dgfg</tooltip>
+	</item>
+</menu>
